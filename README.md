@@ -1,7 +1,14 @@
-# EconofCrimeoverTimeSpace
+# Overview
+
+This lecture+masterclass aims to give a knowhow of 1) scrape data from dynamic websites, 2) work with unstructured data. This is the readme file which gives all files/slides/codes for the talk. It also includes instrictions for getting Pycharm working.
+
+# Instructions for Pycharm installations
 
 
-This is the readme file which gives all files/slides/codes for the talk. It also includes instrictions for getting Pycharm working.
+# Installing packages
+
+
+# Datafile descriptions
 
 Datafile 1: london_places.csv - this is a data I am providing from Wikipedia (https://en.wikipedia.org/wiki/List_of_areas_of_London). I have done 3 modifications to it for the sake of simplicity but this should be adjusted to research objectives and equally (preferably) doable in Python. 
           a) If there are more than one postcode district for a location, I have kept the 1st one listed (one can work out the largest area etc to use the corresponding postcode district etc).
