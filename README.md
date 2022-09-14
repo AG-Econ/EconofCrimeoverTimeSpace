@@ -3,7 +3,7 @@
 This lecture+masterclass aims to give a knowhow of 1) scrape data from dynamic websites, 2) work with unstructured data. This is the readme file which gives all files/slides/codes for the talk. It also includes instrictions for getting Pycharm working.
 
 # Instructions for Pycharm installations
-
+firfox driver
 
 # Installing packages
 
