@@ -34,3 +34,9 @@ Code 2: scraper
 Code 3: prelim_textasdata
 
 Code 4: final_textasdata
+
+# Declarations
+
+I do cheat a little in this class. Pre-processing of datafile 1 should be done in Python. Some codes can be more efficient (writing loops/functions). 
+
+# Sources
