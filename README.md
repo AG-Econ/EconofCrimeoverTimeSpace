@@ -2,7 +2,7 @@
 
 ## Overview
 
-These sessions aim to give a knowhow of 1) scraping data from dynamic websites (session 1), 2) working with unstructured text (session 2). There is a lot of ground to cover, so I will be at places skipping some basic steps. It might be difficult to follow with running all the codes, unless you are already quite comfortable with Python. This is the readme file which gives all files/slides/codes for the talk. 
+These sessions aim to give a knowhow of 1) scraping data from dynamic websites (session 1), 2) working with unstructured text (session 2). We will use the following website to get our data and work with it: https://www.murdermap.co.uk/. There is a lot of ground to cover, so I will be at places skipping some basic steps. It might be difficult to follow with running all the codes, unless you are already quite comfortable with Python. This is the readme file which gives all files/slides/codes for the talk. 
 
 ## Instructions
 
