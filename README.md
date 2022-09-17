@@ -20,7 +20,7 @@ If you want to run the codes during session for this part you need to install ge
 
 For the second part, I have already provided the datafile I obtained with this scraping code and you can follow along the code with me, if you wish. 
 
-You need to change the directory paths in the code files accordingly.
+You need to change the directory paths in the code files accordingly (where there is YOUR DIRECTORY in the codes).
 
 ## Installing packages
 
