@@ -12,6 +12,8 @@ We will use Google Chrome to inspect the HTMLs for scraping but will use Firefox
 
 For ethical reasons (and practical reason of not overloading the target website with 30+ requests)- I suggest that you follow the lecture and see me use the code for scraping to get the data in the first part. If you are interested in practicing you can do so later and I will be happy to answer further questions over email for this part.
 
+If you want to run the codes during session for this part you need to install geckodriver for launching Firefox (instructions: https://selenium-python.readthedocs.io/installation.html). I have a mac and used ''brew install geckodriver'' from the terminal.
+
 For the second part, I have already provided the datafile I obtained with this scraping code and you can follow along the code with me, if you wish. 
 
 You need to change the directory paths in the code files accordingly.
