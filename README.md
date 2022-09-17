@@ -14,6 +14,8 @@ For ethical reasons (and practical reason of not overloading the target website 
 
 For the second part, I have already provided the datafile I obtained with this scraping code and you can follow along the code with me, if you wish. 
 
+You need to change the directory paths in the code files accordingly.
+
 ## Installing packages
 
 There are a few packages we'll use that you need to install. Some basic general-use Python libraries you'll need to install (or probably already have):
@@ -55,17 +57,21 @@ Pycharm's added advantage (for me) is that if there is an import command for whi
 3. I have renamed the variable Postcode district to Postcodedistrict for convenience.
 The only 2 columns of interest here for us are Location and Postcodedistrict. 
 
-**Set of slides 1:** Notes for Webscraping with Python
+**Session 1:**
 
-**Set of slides 2:** Notes for Text as Data/ Natural Language Processing with Python
+  - **Set of slides 1:** Notes for Webscraping with Python
 
-**Code 1:** main.py (I was bored to change the name) - urls extractor from the target website
+  - **Code 1:** main.py (I was bored to change the name) - urls extractor from the target website
 
-**Code 2:** Scraper.py - scrape the paragraphs we need from the collected urls and save them
+  - **Code 2:** Scraper.py - scrape the paragraphs we need from the collected urls and save them
 
-**Code 3:** textasdata1.py - does some standard run-of-the-mill NLP to our data (can be very useful often in other data even if not necessarily for our case, given our goal)
+**Session 2:**
 
-**Code 4:** textasdata2.py - extracts dates using regex, extracts location with training data (supervised learning - classification), maps location of unsolved murders in London
+  - **Set of slides 2:** Notes for Text as Data/ Natural Language Processing with Python
+  
+  - **Code 3:** textasdata1.py - does some standard run-of-the-mill NLP to our data (can be very useful often in other data even if not necessarily for our  case, given our goal)
+
+  - **Code 4:** textasdata2.py - extracts dates using regex, extracts location with training data (supervised learning - classification), maps location of unsolved murders in London
 
 ## Declarations
 
