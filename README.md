@@ -79,7 +79,7 @@ The only 2 columns of interest here for us are Location and Postcodedistrict.
 
 ## Declarations
 
-Could not have done this without encouragements from Brendon and Corrado. I do cheat a little in these sessions. Pre-processing of datafile 4 should be done in Python. Some codes can be more efficient (writing loops/functions/using Regex etc). All errors/mistakes are mine and I will highly appreciate if you reach out to me if you spot any!
+Could not have done this without encouragements from Brendon and Corrado. I do cheat a little in these sessions. Pre-processing of datafile 4 should be done in Python. Some codes can be more efficient (writing loops/functions/using Regex etc). All errors/mistakes are mine and in case you spot any, I will highly appreciate it if you reach out to me!
 
 ## Sources
 
