@@ -47,7 +47,9 @@ Pycharm's added advantage (for me) is that if there is an import command for whi
 
 **Datefile 2:** raw_data.csv - this file contains the scraped data obtained from the Scraper.py code below (output from session 1). This is also the input file for us to work in session 2. 
 
-**Datafile 3:** london_places.csv - this is a data I am providing from Wikipedia (https://en.wikipedia.org/wiki/List_of_areas_of_London). I have done 3 modifications to it for the sake of simplicity but this should be adjusted to research objectives and equally (preferably) doable in Python. 
+**Datafile 3:** raw_data_2.csv - this file contains the intermediate file obtained from textasdata1.py and the input of textasdata2.py
+
+**Datafile 4:** london_places.csv - this is a data I am providing from Wikipedia (https://en.wikipedia.org/wiki/List_of_areas_of_London). I have done 3 modifications to it for the sake of simplicity but this should be adjusted to research objectives and equally (preferably) doable in Python. 
 1. If there are more than one postcode district for a location, I have kept the 1st one listed (one can work out the largest area etc to use the corresponding postcode district etc).
 2. If there were more than 1 location listed in each cell of locations, I added these as seperate observations in the file, with the same postcode district. 
 3. I have renamed the variable Postcode district to Postcodedistrict for convenience.
@@ -67,7 +69,7 @@ The only 2 columns of interest here for us are Location and Postcodedistrict.
 
 ## Declarations
 
-Could not have done this without encouragements from Brendon and Corrado. I do cheat a little in these sessions. Pre-processing of datafile 3 should be done in Python. Some codes can be more efficient (writing loops/functions/using Regex etc). All errors/mistakes are mine and I will highly appreciate if you reach out to me if you spot any!
+Could not have done this without encouragements from Brendon and Corrado. I do cheat a little in these sessions. Pre-processing of datafile 4 should be done in Python. Some codes can be more efficient (writing loops/functions/using Regex etc). All errors/mistakes are mine and I will highly appreciate if you reach out to me if you spot any!
 
 ## Sources
 
