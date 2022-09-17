@@ -10,7 +10,7 @@ We will use the following website to get our data and work with it: https://www.
 
 ## Instructions
 
-I'll be working with Python 3.10. If you haven't used Python before, I recommend PyCharm IDE (integrated development environment). It's available here (community version): https://www.jetbrains.com/pycharm/download/
+I'll be working with Python 3.10. If you haven't used Python before, I recommend PyCharm IDE (integrated development environment). It's available here (community version): https://www.jetbrains.com/pycharm/download/. If you are not familiar with Pycharm, please open it and create a new project and select the relevant python version.
 
 We will use Google Chrome to inspect the HTMLs for scraping but will use Firefox driver installed for the actual webscraping part. You might prefer to use other drivers like Google (in that case you will need to rectify the web.browser command in the main.py).
 
