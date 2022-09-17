@@ -57,21 +57,21 @@ Pycharm's added advantage (for me) is that if there is an import command for whi
 
 **Datafile 3:** raw_data_2.csv - this file contains the intermediate file obtained from textasdata1.py and the input of textasdata2.py
 
-**Datafile 4:** london_places.csv - this is a data I am providing from Wikipedia (https://en.wikipedia.org/wiki/List_of_areas_of_London). I have done 3 modifications to it for the sake of simplicity but this should be adjusted to research objectives and equally (preferably) doable in Python. 
+**Datafile 4:** london_places.csv - this is a data I obtained from Wikipedia (https://en.wikipedia.org/wiki/List_of_areas_of_London). I have done 3 modifications to it for the sake of simplicity but this should be adjusted to research objectives and equally (preferably) doable in Python. 
 1. If there are more than one postcode district for a location, I have kept the 1st one listed (one can work out the largest area etc to use the corresponding postcode district etc).
-2. If there were more than 1 location listed in each cell of locations, I added these as seperate observations in the file, with the same postcode district. 
+2. If there were more than one location listed in each cell of locations (like 'Barnet (also Chipping Barnet, High Barnet)'), I added these as seperate observations in the file, with the same postcode district. 
 3. I have renamed the variable Postcode district to Postcodedistrict for convenience.
 The only 2 columns of interest here for us are Location and Postcodedistrict. 
 
-**Datafile 5:** postcode_outcodes.csv - this is for the latitude and longitude mapping from postcode districts. I download the Outcode Area Postcodes csv from https://www.freemaptools.com/download-uk-postcode-lat-lng.htm and just adjust the name from '-' to '_'.
+**Datafile 5:** postcode_outcodes.csv - this is for the latitude and longitude mapping from postcode districts. I downloaded the Outcode Area Postcodes csv from https://www.freemaptools.com/download-uk-postcode-lat-lng.htm and just adjust the name from '-' to '_'.
 
 **Session 1:**
 
   - **Set of slides 1:** Notes for Webscraping with Python
 
-  - **Code 1:** main.py (I was bored to change the name) - urls extractor from the target website
+  - **Code 1:** main.py - extracts urls from the target website
 
-  - **Code 2:** Scraper.py - scrape the paragraphs we need from the collected urls and save them
+  - **Code 2:** Scraper.py - scrapes the paragraphs we need from the collected urls and saves them
 
 **Session 2:**
 
