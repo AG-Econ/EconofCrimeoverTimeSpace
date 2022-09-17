@@ -19,10 +19,11 @@ For the second part, I have already provided the datafile I obtained with this s
 There are a few packages we'll use that you need to install. Some basic general-use Python libraries you'll need to install (or probably already have):
 * re 
 * os
+* sys
 * csv
 * time
-* pandas
 * numpy
+* pandas
 * matplotlib
 * statsmodels
 
@@ -34,8 +35,11 @@ Then some more scraping; natural language processing or machine learning; mappin
 * folium
 * sklearn
 * nltk
+The code files have the import commands as well. 
 
-If you're using PyCharm, in the bottom-right corner of the screen it will say something like "Python 3.10" to tell you which Python interpreter PyCharm is using. If you click on this, then on "Interpreter Settings" in the menu that pops up, it will list the packages installed. At the bottom of this list there will be a "+" symbol that allows you to install new packages. If you click the "+" button, it will bring up a list of available packages, and you can search by name for the packages listed above, and it will automatically install for you.
+**Sidenotes (irrelevant if you already know and use Pycharm):** If you're using PyCharm, in the bottom-right corner of the screen it will say something like "Python 3.10" to tell you which Python interpreter PyCharm is using. If you click on this, then on "Interpreter Settings" in the menu that pops up, it will list the packages installed. At the bottom of this list there will be a "+" symbol that allows you to install new packages. If you click the "+" button, it will bring up a list of available packages, and you can search by name for the packages listed above, and it will automatically install for you.
+
+Pycharm's added advantage (for me) is that if there is an import command for which the package is not installed, the import command comes with a red underline and right clicking on that will give you options to install packages as well. Also Pycharm can streamline optimizing import as well. 
 
 ## File descriptions
 
