@@ -57,7 +57,7 @@ The only 2 columns of interest here for us are Location and Postcodedistrict.
 
 **Code 2:** Scraper.py - scrape the paragraphs we need from the collected urls and save them
 
-**Code 3:** textasdata1.py - does some standard run-of-the-mill NLP to our data (not very useful often in real world and in our case as well)
+**Code 3:** textasdata1.py - does some standard run-of-the-mill NLP to our data (can be very useful often in other data even if not necessarily for our case, given our goal)
 
 **Code 4:** textasdata2.py - extracts dates using regex, extracts location with training data (supervised learning - classification), maps location of unsolved murders in London
 
