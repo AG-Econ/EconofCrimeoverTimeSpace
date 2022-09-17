@@ -39,6 +39,7 @@ Then some more scraping; natural language processing or machine learning; mappin
 * folium
 * sklearn
 * nltk
+
 The code files have the import commands as well. 
 
 **Sidenotes (irrelevant if you already know and use Pycharm):** If you're using PyCharm, in the bottom-right corner of the screen it will say something like "Python 3.10" to tell you which Python interpreter PyCharm is using. If you click on this, then on "Interpreter Settings" in the menu that pops up, it will list the packages installed. At the bottom of this list there will be a "+" symbol that allows you to install new packages. If you click the "+" button, it will bring up a list of available packages, and you can search by name for the packages listed above, and it will automatically install for you.
