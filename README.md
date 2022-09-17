@@ -34,11 +34,10 @@ There are a few packages we'll use that you need to install. Some basic general-
 Then some more scraping; natural language processing or machine learning; mapping specific packages:
 * selenium
 * spacy
-* geopy
-* geocoders
-* folium
 * sklearn
 * nltk
+* geopy
+* folium
 
 The code files have the import commands as well. 
 
@@ -59,6 +58,8 @@ Pycharm's added advantage (for me) is that if there is an import command for whi
 2. If there were more than 1 location listed in each cell of locations, I added these as seperate observations in the file, with the same postcode district. 
 3. I have renamed the variable Postcode district to Postcodedistrict for convenience.
 The only 2 columns of interest here for us are Location and Postcodedistrict. 
+
+**Datafile 5:** postcode_outcodes.csv - this is for the latitude and longitude mapping from postcode districts. I download the Outcode Area Postcodes csv from https://www.freemaptools.com/download-uk-postcode-lat-lng.htm and just adjust the name from '-' to '_'.
 
 **Session 1:**
 
