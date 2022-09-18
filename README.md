@@ -12,7 +12,7 @@ We will use the following website to get our data and work with it: https://www.
 
 I'll be working with Python 3.10. If you haven't used Python before, I recommend PyCharm IDE (integrated development environment). It's available here (community version): https://www.jetbrains.com/pycharm/download/. If you are not familiar with Pycharm, please open it and create a new project in your desired location and select the relevant python version. Then copy all the codes in the project folder and datafiles 4 & 5 (description below) in that folder. If you are only running codes in the session 2 then you will also need to copy datafiles 1 & 2. 
 
-We will use Google Chrome to inspect the HTMLs for scraping but will use Firefox driver for the actual webscraping part. You might prefer to use other drivers like Google (in that case you will need to rectify the web.browser command in the urlcollector.py).
+We will use Google Chrome to inspect the HTMLs for scraping but will use Firefox driver for the actual webscraping part. You might prefer to use other drivers like Google (in that case you will need to rectify the web.browser command in the urlcollector.py). If you are using Windows and want to run the session 1 codes: you need to download the system specific geckodriver and unzip in the your project folder. 
 
 For ethical reasons (and practical reason of not overloading the target website with 30+ requests)- I suggest that you follow the lecture and see me use the code for scraping to get the data in the first part. If you are interested in practicing you can do so later and I will be happy to answer further questions over email for this part.
 
@@ -37,7 +37,7 @@ There are a few packages we'll use that you need to install. Some basic general-
 
 Then some more scraping; natural language processing or machine learning; mapping specific packages:
 * selenium
-* spacy
+* spacy (for windows: you also need command prompt and run ''python -m spacy download en_core_web_sm'')
 * sklearn
 * nltk
 * geopy
