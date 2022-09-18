@@ -340,7 +340,7 @@ london_places['Location'] = pd.Series(london_places['Location'], dtype="string")
 len(london_places.index)
 
 '''We drop the duplicates like Grove Park in Hounslow or Lewisham : does not matter much for this session - for 
-research data this can be adjusted accordingly'''
+research purposes this should be adjusted accordingly'''
 london_places = london_places.drop_duplicates(subset=['Location'])
 len(london_places.index)
 
