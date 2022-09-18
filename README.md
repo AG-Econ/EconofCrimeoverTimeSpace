@@ -63,7 +63,7 @@ Pycharm's added advantage (for me) is that if there is an import command for whi
 3. I have renamed the variable Postcode district to Postcodedistrict for convenience.
 The only 2 columns of interest here for us are Location and Postcodedistrict. 
 
-**Datafile 5:** postcode_outcodes.csv - this is for the latitude and longitude mapping from postcode districts. I downloaded the Outcode Area Postcodes csv from https://www.freemaptools.com/download-uk-postcode-lat-lng.htm and just adjust the name from '-' to '_'.
+**Datafile 5:** postcode_outcodes.csv - this is for the latitude and longitude mapping from postcode districts. I downloaded the Outcode Area Postcodes csv from https://www.freemaptools.com/download-uk-postcode-lat-lng.htm and just adjusted the name with '-' to '_'.
 
 **Session 1:**
 
