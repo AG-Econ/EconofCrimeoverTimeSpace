@@ -117,6 +117,7 @@ show_ents(doc)
 
 LABEL = "FINLOC"
 
+'''Need to train the classifier from this data itself'''
 TRAIN_DATA = [(
     "Bjorn Brown, a 23-year-old mechanic, was stabbed in Thornton Heath at around 8.33pm on 29 March 2017. He died in hospital five days later. CCTV footage showed Bjorn having a short conversation with two men at the junction of in Kelling Gardens and Bensham Lane. They then walk into Kelling Gardens, out of view of the camera.",
     {"entities": [(52, 66, "FINLOC")]}),
