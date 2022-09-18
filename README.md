@@ -87,4 +87,4 @@ Could not have done this without encouragements from Brendon and Corrado. I do c
 
 ## Sources
 
-Have to update
+At the end of set of slides 2
