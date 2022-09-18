@@ -387,12 +387,9 @@ s = london_places.set_index('Location')['Postcodedistrict']
 for c in scraped_data.filter(like='locpart'):
     scraped_data[c.replace('locpart', 'Postcodedistrict')] = scraped_data[c].map(s)
 
-'''filling in the missing values where we find it'''
+'''filling in the missing values where we find it and dropping extra variables'''
 for c in scraped_data.filter(like='Postcodedistrict'):
     scraped_data["PCode_final"] = scraped_data["PCode_final"].fillna(scraped_data[c])
-
-'''dropping some variables'''
-for c in scraped_data.filter(like='Postcodedistrict'):
     scraped_data.drop(c, axis=1, inplace=True)
 
 '''create a subset'''
