@@ -10,6 +10,8 @@ from selenium.webdriver.firefox.options import Options
 from numpy import random
 from time import sleep
 
+'''Don't have a user agent string here, but instructions to set is here: https://stackoverflow.com/questions/29916054/change-user-agent-for-selenium-web-driver'''
+
 options = Options()
 options.add_argument('--disable-blink-features=AutomationControlled')
 tsleep = random.uniform(1, 7)
