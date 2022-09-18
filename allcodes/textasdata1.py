@@ -154,7 +154,7 @@ scraped_data.head()
 Counter(chain(*scraped_data['Text'])).most_common(10)
 
 '''Let's save our data'''
-outfile_name = "raw_data_2.csv"
+outfile_name = "raw_data.csv"
 completeName = os.path.join(dat_dir, outfile_name)
 
 scraped_data.to_csv(completeName, index=False)
@@ -190,11 +190,11 @@ vectorizer = CountVectorizer(max_features=10000)
 tf = vectorizer.fit_transform(scraped_data['clean_text'])
 df_bow = pd.DataFrame(tf.toarray(), columns=vectorizer.get_feature_names_out())
 
-df_bow['total_tokens'] = df_bow.sum(axis=1)
+#df_bow['total_tokens'] = df_bow.sum(axis=1)
 print(df_bow.head())
 
 '''
-Topic Modelling:
+Topic Modelling: unsupervised learning
 '''
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.decomposition import LatentDirichletAllocation
@@ -202,7 +202,8 @@ from sklearn.decomposition import LatentDirichletAllocation
 tfidf = TfidfTransformer()
 tfidf_sparse = tfidf.fit_transform(df_bow)
 df_tfidf = pd.DataFrame(tfidf_sparse.toarray(), columns=tfidf.get_feature_names_out())
-
+print(df_tfidf)
+'''Choosing 5 topics arbitrarily'''
 lda = LatentDirichletAllocation(
     n_components=5,
     max_iter=5,
@@ -213,7 +214,6 @@ lda = LatentDirichletAllocation(
 lda.fit(tf)
 
 tf_feature_names = vectorizer.get_feature_names_out()
-
 
 '''Plotting top words'''
 import matplotlib.pyplot as plt
