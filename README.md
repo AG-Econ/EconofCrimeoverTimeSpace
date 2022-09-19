@@ -16,7 +16,7 @@ We will use Google Chrome to inspect the HTML for scraping but will use the Fire
 
 For ethical reasons (and practical reasons of not overloading the target website with 30+ requests)- I suggest that you follow the talk and see me use the code for scraping to get the data in the first part. If you are interested in practicing you can do so later and I will be happy to answer further questions over email for this part.
 
-If you want to run the scraping codes you need to have geckodriver for launching Firefox (instructions: https://selenium-python.readthedocs.io/installation.html). I have a mac and used ''brew install geckodriver'' from the terminal. If you are using Windows, you need to download the system-specific geckodriver (https://github.com/mozilla/geckodriver/releases). 
+If you want to run the scraping codes you need to have geckodriver for launching Firefox (instructions: https://selenium-python.readthedocs.io/installation.html). I have a mac and used ''brew install geckodriver'' from the terminal. You will need to download the system-specific geckodriver (https://github.com/mozilla/geckodriver/releases). 
 
 For the second part, I have already provided the data (raw_data.csv) I obtained with the scraping code and you can follow along by running the code with me if you wish.
 
@@ -37,7 +37,7 @@ There are a few packages we'll use that you need to install. Some basic general-
 
 Then some more scraping; natural language processing or machine learning; mapping specific packages:
 * selenium
-* spacy (for windows: you also need to open the command prompt and run ''python -m spacy download en_core_web_sm'')
+* spacy (check https://spacy.io/usage for relevant installations)
 * sklearn
 * nltk
 * geopy
