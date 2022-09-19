@@ -14,7 +14,7 @@ I'll be working with Python 3.10. If you haven't used Python before, I recommend
 
 We will use Google Chrome to inspect the HTML for scraping but will use the Firefox driver for the actual web scraping part. You might prefer to use other drivers like Google (in that case you will need to rectify the web.browser command in the urlcollector.py). 
 
-For ethical reasons (and practical reasons of not overloading the target website with 30+ requests)- I suggest that you follow the lecture and see me use the code for scraping to get the data in the first part. If you are interested in practicing you can do so later and I will be happy to answer further questions over email for this part.
+For ethical reasons (and practical reasons of not overloading the target website with 30+ requests)- I suggest that you follow the talk and see me use the code for scraping to get the data in the first part. If you are interested in practicing you can do so later and I will be happy to answer further questions over email for this part.
 
 If you want to run the scraping codes you need to install geckodriver for launching Firefox (instructions: https://selenium-python.readthedocs.io/installation.html). I have a mac and used ''brew install geckodriver'' from the terminal. If you are using Windows, you need to download the system-specific geckodriver (https://github.com/mozilla/geckodriver/releases) and unzip it in your project folder. 
 
