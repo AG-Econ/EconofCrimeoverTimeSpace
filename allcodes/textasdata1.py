@@ -154,7 +154,7 @@ scraped_data.head()
 Counter(chain(*scraped_data['Text'])).most_common(10)
 
 '''Let's save our data'''
-outfile_name = "raw_data.csv"
+outfile_name = "raw_data_2.csv"
 completeName = os.path.join(dat_dir, outfile_name)
 
 scraped_data.to_csv(completeName, index=False)
