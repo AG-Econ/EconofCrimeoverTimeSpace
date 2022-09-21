@@ -1,4 +1,4 @@
-# Summer School Day 2: The Economics Crime over Time and Space: Theory, Practice and Applications
+# Summer School Day 2: The Economics of Crime over Time and Space: Theory, Practice and Applications
 
 ## Overview
 
